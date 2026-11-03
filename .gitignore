@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+# runtime data: database, uploads, certificates, keys, logs
+data/*
+!data/.gitkeep
+ghab/data/
+cloud-drive/data/
+*.db
+*.db-wal
+*.db-shm
+*.crt
+*.key
+service-run.bat
+# android build output / signing
+android/jvmtest/out/
+android/**/build/
+android/*.jks
+android/keystore.properties
+android/local.properties
